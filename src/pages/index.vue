@@ -2,7 +2,7 @@
 
 <template>
   <div>
-    <NuxtLink to="/auth/login">ВХОД / РЕГИСТРАЦИЯ</NuxtLink>
+    <NuxtLink to="/user">BIG MONEY BUTTON</NuxtLink>
   </div>
 </template>
 

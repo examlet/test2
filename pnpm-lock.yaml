@@ -7,6 +7,8 @@ overrides:
 specifiers:
   '@antfu/eslint-config': ^0.14.2
   '@iconify-json/carbon': ^1.0.12
+  '@iconify-json/logos': ^1.0.4
+  '@iconify-json/simple-icons': ^1.0.18
   '@iconify-json/twemoji': ^1.0.2
   '@pinia/nuxt': ^0.1.8
   '@unocss/nuxt': ^0.20.1
@@ -17,11 +19,13 @@ specifiers:
   typescript: ^4.5.4
 
 dependencies:
+  '@iconify-json/simple-icons': 1.0.18
   pinia: 2.0.10_typescript@4.5.5
 
 devDependencies:
   '@antfu/eslint-config': 0.14.2_eslint@8.8.0+typescript@4.5.5
   '@iconify-json/carbon': 1.0.14
+  '@iconify-json/logos': 1.0.4
   '@iconify-json/twemoji': 1.0.2
   '@pinia/nuxt': 0.1.8_pinia@2.0.10
   '@unocss/nuxt': 0.20.4
@@ -487,6 +491,18 @@ packages:
       '@iconify/types': 1.0.12
     dev: true
 
+  /@iconify-json/logos/1.0.4:
+    resolution: {integrity: sha512-jxNfvLj5ZCQUSe8bBN3mUxePKWcS9JbmoNd4t95PI5nDbwjOqAs1B4pgsJAn0T99foeThTn7r/69AQDqPQXCBA==}
+    dependencies:
+      '@iconify/types': 1.0.12
+    dev: true
+
+  /@iconify-json/simple-icons/1.0.18:
+    resolution: {integrity: sha512-PSwPucrhDhBl8cHMdJZtKzi9jm+XgSoqlpobYvCHMhvsWSTkGU/G8TwrQqLYv92DOohBnYwNm+Hiw0+T4JjzjQ==}
+    dependencies:
+      '@iconify/types': 1.0.12
+    dev: false
+
   /@iconify-json/twemoji/1.0.2:
     resolution: {integrity: sha512-kr1WiObcPMU4bJDLVH8x0tk5WaP95QFVsVIdNUMpbzYgx5vBa8lx9LKhOv+D6y+Co+bCAIP9N97ObaRM1fe4Kg==}
     dependencies:
@@ -495,7 +511,6 @@ packages:
 
   /@iconify/types/1.0.12:
     resolution: {integrity: sha512-6er6wSGF3hgc1JEZqiGpg21CTCjHBYOUwqLmb2Idzkjiw6ogalGP0ZMLVutCzah+0WB4yP+Zd2oVPN8jvJ+Ftg==}
-    dev: true
 
   /@iconify/utils/1.0.21:
     resolution: {integrity: sha512-Rf8vfOH7MI30xyc9rbLFdxnfsfdcrIiIxsoZyEWkUK8P65QsS9PrQXunOc9Wt7uZfJTiX25WMED3WqLKXrRx1Q==}
@@ -7236,7 +7251,7 @@ packages:
   /wide-align/1.1.5:
     resolution: {integrity: sha512-eDMORYaPNZ4sQIuuYPDHdQvf4gyCF9rEEV/yPxGfwPkRodwEgiMUUXTx/dex+Me0wxx53S+NgUHaP7y3MGlDmg==}
     dependencies:
-      string-width: 1.0.2
+      string-width: 4.2.3
     dev: true
 
   /word-wrap/1.2.3:
