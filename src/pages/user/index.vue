@@ -17,7 +17,7 @@
         hover:border-teal-600
         border-opacity-40
         text-2xl
-        w-24
+        w-22
         h-12
         mr-4
       >
@@ -33,7 +33,7 @@
         hover:border-teal-600
         border-opacity-40
         text-2xl
-        w-24
+        w-22
         h-12
         mr-4
       >
@@ -49,7 +49,7 @@
         hover:border-teal-600
         border-opacity-40
         text-2xl
-        w-24
+        w-22
         h-12
       >
         <div mx-a i-logos-google-icon />
