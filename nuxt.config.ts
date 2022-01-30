@@ -44,6 +44,7 @@ export default defineNuxtConfig({
     },
     shortcuts: [
       ['btn', 'px-4 py-1 rounded inline-block bg-teal-600 text-white cursor-pointer hover:bg-teal-700 disabled:cursor-default disabled:bg-gray-600 disabled:opacity-50'],
+      ['btn-border', 'cursor-pointer inline-block border rounded border-solid border-gray-500 hover:border-teal-600 border-opacity-40 active:bg-gray-100 text-base px-4 py-1 disabled:cursor-not-allowed disabled:border-opacity-40 disabled:op50']
     ],
     rules: [],
   },
