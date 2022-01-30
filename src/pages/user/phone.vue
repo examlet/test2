@@ -46,13 +46,13 @@ const go = async () => {
     </NuxtLink>
 
     <div text-xl text-left font-semibold>
-      Войдите или зарегистрируйтесь по имени пользователя
+      Войдите или зарегистрируйтесь по номеру телефона
     </div>
 
     <input
       id="username"
       v-model="payload.username"
-      placeholder="Введите логин"
+      placeholder="Введите номер"
       type="text"
       autocomplete="false"
       @keydown.enter="go"
@@ -62,7 +62,7 @@ const go = async () => {
     <input
       id="password"
       v-model="payload.password"
-      placeholder="Введите или придумайте пароль"
+      placeholder="Введите код из смс"
       type="password"
       autocomplete="false"
       @keydown.enter="go"
@@ -80,7 +80,7 @@ const go = async () => {
       Далее
     </button>
 
-    <NuxtLink to="/" link flex mb-4>Забыли пароль?</NuxtLink>
+    <NuxtLink to="/" link flex mb-4>Проблемы со входом?</NuxtLink>
   </div>
 </template>
 
