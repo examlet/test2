@@ -1,8 +1,11 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const target = ref();
+const { focused } = useFocusWithin(target);
+</script>
 
 <template>
   <div h-full w-full>
-    <div h-full w-full text-center flex select-none>
+    <div h-full w-full text-center flex select-none ref="target">
       <div hidden sm:block>
         <a href="/" class="logo" />
       </div>
@@ -21,7 +24,7 @@
       >
         <slot />
 
-        <div op60 text-sm text-left fw300>
+        <div op60 text-sm text-left fw300 v-bind:class="{ hidden: focused }">
           Регистрируясь в сервисе, принимаю условия
           <a
             href="#"
@@ -45,7 +48,7 @@
         </div>
       </div>
     </div>
-    <div absolute bottom-5 right-0 left-0 text-center fw300 op50>
+    <div absolute bottom-5 right-0 left-0 text-center fw300 op50 v-bind:class="{ hidden: focused }">
       made by @a1kk3 · all rights reserved · 2022
     </div>
   </div>

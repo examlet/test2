@@ -40,7 +40,7 @@ const go = async () => {
 
 <template>
   <div>
-    <div style="margin-left: -0.3rem" mb-4>
+    <div style="margin-left: -0.3rem" mb-4 w-18>
       <NuxtLink
         to="/user"
         font-mono
@@ -122,7 +122,7 @@ const go = async () => {
       </button>
     </div>
 
-    <div font-mono text-base text-left text-teal-600 mb-5>
+    <div font-mono text-base text-left text-teal-600>
       <NuxtLink to="/" no-underline hover:underline decoration-teal-600 underline-offset-3
         >Забыли пароль?</NuxtLink
       >
