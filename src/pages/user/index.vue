@@ -22,7 +22,7 @@
 
     <div flex mb-4>
       <button btn-border h-12 w-full mr-4 disabled>Номер телефона</button>
-      <button btn-border h-12 w-12rem disabled>Почта</button>
+      <button btn-border h-12 w-11rem disabled>Почта</button>
     </div>
 
     <NuxtLink to="/user/login">
