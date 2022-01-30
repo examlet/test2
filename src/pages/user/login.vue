@@ -122,7 +122,7 @@ const go = async () => {
       </button>
     </div>
 
-    <div font-mono text-base text-left text-teal-600>
+    <div font-mono text-base text-left text-teal-600 mb-4>
       <NuxtLink to="/" no-underline hover:underline decoration-teal-600 underline-offset-3
         >Забыли пароль?</NuxtLink
       >
