@@ -21,7 +21,7 @@
     <div text-left mb-4 op50>Другим способом</div>
 
     <div flex mb-4>
-      <button btn-border w-full h-12 mb-4 mr-4>
+      <button btn-border w-full h-12 mr-4>
         <NuxtLink to="/user/phone" w-full h-full>Номер телефона</NuxtLink>
       </button>
       <button btn-border h-12 w-11rem disabled>

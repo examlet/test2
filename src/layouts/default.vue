@@ -1,11 +1,13 @@
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div h-full w-full>
     <div h-full w-full text-center flex select-none>
-      <div hidden sm:block>
-        <a href="/" class="logo" />
+      <div hidden sm:block absolute top-16 left-16 w-28 h-20 flex flex-inline>
+        <div ml-8 i-clarity-cloud-traffic-line text-4xl text-teal-600 />
+        <div text-xl font-semibold text-teal-600>
+          quickcrm.io
+        </div>
       </div>
 
       <div
@@ -64,8 +66,8 @@
 .logo {
   display: block;
   box-sizing: border-box;
-  background: url(https://a.foxford.ngcdn.ru/assets/webpack/images/foxford_logo_black.9eec6056.svg)
-    left center / auto no-repeat transparent;
+  background: url(https://cdn.worldvectorlogo.com/logos/nuxt-2.svg) left center / auto
+    no-repeat transparent;
   flex-shrink: 0;
   transition: width 0.25s linear 0s;
   height: 40px;
