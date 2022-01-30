@@ -8,7 +8,7 @@
       </div>
 
       <div
-        p-10
+        p-8
         self-center
         sm:h-auto
         sm:box-border

@@ -17,7 +17,7 @@
         hover:border-teal-600
         border-opacity-40
         text-2xl
-        w-24
+        w-20
         h-12
         mr-4
       >
@@ -70,7 +70,7 @@
         border-opacity-40
         text-base
         h-12
-        w-full
+        w-24
         mr-4
       >
         Номер телефона
