@@ -4,5 +4,7 @@ div#__nuxt {
   height: 100%;
   margin: 0;
   padding: 0;
-  background: #f4f5fa
+  background: #f4f5fa;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-tap-highlight-color: transparent;
 }
