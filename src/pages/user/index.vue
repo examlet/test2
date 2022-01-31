@@ -24,16 +24,16 @@
       <NuxtLink to="/user/phone" w-full mr-4>
         <button btn-border w-full h-full>Номер телефона</button>
       </NuxtLink>
-      <NuxtLink to="/user/email" w-11rem >
+      <NuxtLink to="/user/" w-11rem >
         <button btn-border w-full h-full disabled>Почта</button>
       </NuxtLink>
     </div>
 
     <NuxtLink to="/user/login">
-      <button btn-border w-full h-12 mb-4 disabled>По имени пользователя и паролю</button>
+      <button btn-border w-full h-12 mb-4>По имени пользователя и паролю</button>
     </NuxtLink>
 
-    <NuxtLink to="/user/employer">
+    <NuxtLink to="/user/">
       <button btn-border w-full h-12 mb-4 disabled>Меня пригласил работодатель</button>
     </NuxtLink>
   </div>
