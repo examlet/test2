@@ -20,22 +20,22 @@
 
     <div text-left mb-4 op50>Другим способом</div>
 
-    <div flex mb-4>
-      <button btn-border w-full h-12 mr-4>
-        <NuxtLink to="/user/phone" w-full h-full>Номер телефона</NuxtLink>
-      </button>
-      <button btn-border h-12 w-11rem disabled>
-        <NuxtLink to="/user/email" w-full h-full>Почта</NuxtLink>
-      </button>
+    <div flex h-12 mb-4 >
+      <NuxtLink to="/user/phone" w-full mr-4>
+        <button btn-border w-full h-full>Номер телефона</button>
+      </NuxtLink>
+      <NuxtLink to="/user/email" w-11rem >
+        <button btn-border w-full h-full disabled>Почта</button>
+      </NuxtLink>
     </div>
 
-    <button btn-border w-full h-12 mb-4>
-      <NuxtLink to="/user/login" w-full h-full>По имени пользователя и паролю</NuxtLink>
-    </button>
+    <NuxtLink to="/user/login">
+      <button btn-border w-full h-12 mb-4 disabled>По имени пользователя и паролю</button>
+    </NuxtLink>
 
-    <button btn-border w-full h-12 mb-4 disabled>
-      <NuxtLink to="/user/employer" w-full h-full>Меня пригласил работодатель</NuxtLink>
-    </button>
+    <NuxtLink to="/user/employer">
+      <button btn-border w-full h-12 mb-4 disabled>Меня пригласил работодатель</button>
+    </NuxtLink>
   </div>
 </template>
 
