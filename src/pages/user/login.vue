@@ -80,7 +80,7 @@ const go = async () => {
       Далее
     </button>
 
-    <NuxtLink to="/" link flex mb-4>Забыли пароль?</NuxtLink>
+    <NuxtLink to="/" link flex mb-5>Забыли пароль?</NuxtLink>
   </div>
 </template>
 
