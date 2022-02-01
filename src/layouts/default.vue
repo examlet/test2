@@ -3,10 +3,10 @@
 <template>
   <div h-full w-full>
     <div h-full w-full text-center flex select-none>
-      <div hidden sm:block absolute top-16 left-16 w-28 h-20 flex flex-inline>
-        <div ml-8 i-clarity-cloud-traffic-line text-4xl text-teal-600 />
-        <div text-xl font-semibold text-teal-600>
-          quickcrm.io
+      <div hidden sm:block absolute top-16 left-16 w-40 h-20 flex flex-inline>
+        <div hidden sm:block ml-11 i-clarity-cloud-traffic-line text-4xl text-teal-600 />
+        <div hidden sm:block text-xl font-semibold text-teal-600>
+          quicksales<span text-xl font-semibold text-black-600>.dev</span>
         </div>
       </div>
 

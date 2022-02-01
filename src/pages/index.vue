@@ -2,7 +2,7 @@
 
 <template>
   <div>
-    <NuxtLink to="/user">BIG MONEY BUTTON</NuxtLink>
+    <NuxtLink to="/user" mb-4>BIG MONEY BUTTON</NuxtLink>
   </div>
 </template>
 
