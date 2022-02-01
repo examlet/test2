@@ -80,7 +80,7 @@ const go = async () => {
       Далее
     </button>
 
-    <NuxtLink to="/" link flex mb-5>Проблемы со входом?</NuxtLink>
+    <NuxtLink to="/" link flex mb-6>Проблемы со входом?</NuxtLink>
   </div>
 </template>
 

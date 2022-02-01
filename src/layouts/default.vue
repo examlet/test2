@@ -62,19 +62,4 @@
     background: white;
   }
 }
-
-.logo {
-  display: block;
-  box-sizing: border-box;
-  background: url(https://cdn.worldvectorlogo.com/logos/nuxt-2.svg) left center / auto
-    no-repeat transparent;
-  flex-shrink: 0;
-  transition: width 0.25s linear 0s;
-  height: 40px;
-  width: 162px;
-  position: absolute;
-  top: 40px;
-  left: 40px;
-  z-index: 1;
-}
 </style>
