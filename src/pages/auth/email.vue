@@ -1,4 +1,10 @@
 <script setup lang="ts">
+definePageMeta({
+  layout: "auth",
+});
+
+const code = ref({})
+
 const payload = reactive({
   grant_type: null,
   username: "",
@@ -40,34 +46,28 @@ const go = async () => {
 
 <template>
   <div>
-    <NuxtLink to="/user" link flex style="margin-left: -0.3rem" w-18 mb-4>
+    <NuxtLink to="/auth" link flex style="margin-left: -0.3rem" w-18 mb-4>
       <div text-xl i-carbon-chevron-left top-8 />
       <div text-base>Назад</div>
     </NuxtLink>
 
     <div text-xl text-left font-semibold>
-      Войдите или зарегистрируйтесь по номеру телефона
+      Войдите или зарегистрируйтесь по почте
     </div>
 
     <input
       id="username"
       v-model="payload.username"
-      placeholder="Введите номер"
+      placeholder="Введите почту"
       type="text"
       autocomplete="false"
       @keydown.enter="go"
       input-text w-full
     />
 
-    <input
-      id="password"
-      v-model="payload.password"
-      placeholder="Введите код из смс"
-      type="password"
-      autocomplete="false"
-      @keydown.enter="go"
-      input-text w-full
-    />
+    <div text-left op50 mt-4 mb-3>Введите код отправленный на почту</div>
+
+    <CodeInput v-model="code" theme="line" w-full></CodeInput>
 
     <button
       :disabled="!(payload.username && payload.password)"
@@ -75,12 +75,12 @@ const go = async () => {
       btn
       w-full
       h-12
-      my-8
+      my-4
     >
       Далее
     </button>
 
-    <NuxtLink to="/" link flex mb-6>Проблемы со входом?</NuxtLink>
+    <NuxtLink to="/" link flex mb-6>Не получили письмо?</NuxtLink>
   </div>
 </template>
 

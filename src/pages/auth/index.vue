@@ -1,4 +1,8 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+definePageMeta({
+  layout: "auth",
+});
+</script>
 
 <template>
   <div>
@@ -21,19 +25,19 @@
     <div text-left mb-4 op50>Другим способом</div>
 
     <div flex h-12 mb-4 >
-      <NuxtLink to="/user/phone" w-full mr-4>
+      <NuxtLink to="/auth/phone" w-full mr-4>
         <button btn-border w-full h-full>Номер телефона</button>
       </NuxtLink>
-      <NuxtLink to="/user/" w-11rem >
-        <button btn-border w-full h-full disabled>Почта</button>
+      <NuxtLink to="/auth/email" w-11rem >
+        <button btn-border w-full h-full>Почта</button>
       </NuxtLink>
     </div>
 
-    <NuxtLink to="/user/login">
+    <NuxtLink to="/auth/login">
       <button btn-border w-full h-12 mb-4>По имени пользователя и паролю</button>
     </NuxtLink>
 
-    <NuxtLink to="/user/">
+    <NuxtLink to="/auth/">
       <button btn-border w-full h-12 mb-4 disabled>Меня пригласил работодатель</button>
     </NuxtLink>
   </div>

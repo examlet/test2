@@ -1,8 +1,12 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+definePageMeta({
+  layout: "landing",
+});
+</script>
 
 <template>
   <div>
-    <NuxtLink to="/user" mb-4>BIG MONEY BUTTON</NuxtLink>
+    <NuxtLink to="/auth" mb-4>BIG MONEY BUTTON</NuxtLink>
   </div>
 </template>
 

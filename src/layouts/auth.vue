@@ -1,15 +1,10 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const { width, height } = useWindowSize()
+</script>
 
 <template>
   <div h-full w-full>
     <div h-full w-full text-center flex select-none>
-      <div hidden sm:block absolute top-16 left-16 w-40 h-20 flex flex-inline>
-        <div hidden sm:block ml-11 i-clarity-cloud-traffic-line text-4xl text-teal-600 />
-        <div hidden sm:block text-xl font-semibold text-teal-600>
-          quicksales<span text-xl font-semibold text-black-600>.dev</span>
-        </div>
-      </div>
-
       <div
         p-8
         self-center
@@ -48,7 +43,7 @@
         </div>
       </div>
     </div>
-    <div absolute bottom-5 right-0 left-0 text-center fw300 op50>
+    <div absolute bottom-5 right-0 left-0 text-center fw300 op50 :class="{ hidden: width < 550 }">
       made by @a1kk3 · all rights reserved · 2022
     </div>
   </div>
