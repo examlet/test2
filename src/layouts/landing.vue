@@ -48,11 +48,4 @@
 </template>
 
 <style>
-@media (max-width: 640px) {
-  html,
-  body,
-  div#__nuxt {
-    background: white;
-  }
-}
 </style>
