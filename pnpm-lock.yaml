@@ -14,7 +14,6 @@ specifiers:
   '@pinia/nuxt': ^0.1.8
   '@unocss/nuxt': ^0.20.1
   '@vueuse/nuxt': ^7.4.2
-  '@windicss/plugin-scrollbar': ^1.2.3
   eslint: ^8.5.0
   less: ^4.1.2
   nuxt3: latest
@@ -22,7 +21,6 @@ specifiers:
   typescript: ^4.5.4
 
 dependencies:
-  '@windicss/plugin-scrollbar': 1.2.3
   less: 4.1.2
   pinia: 2.0.10_typescript@4.5.5
 
@@ -1759,10 +1757,6 @@ packages:
       '@webassemblyjs/ast': 1.11.1
       '@xtuc/long': 4.2.2
     dev: true
-
-  /@windicss/plugin-scrollbar/1.2.3:
-    resolution: {integrity: sha512-+cqv1pEmaNPITeBJ/lO6tc8IjBzRhQ+V9G8r249MMXivYoxUO4DtModBrRGHVvBgsYZgPXDsIv2jqtxc4NqYEg==}
-    dev: false
 
   /@xtuc/ieee754/1.2.0:
     resolution: {integrity: sha512-DX8nKgqcGwsc0eJSqYt5lwP4DH5FlHnmuWWBRy7X0NcaGR0ZtuyeESgMwTYVEtxmsNGY+qit4QYT/MIYTOTPeA==}
