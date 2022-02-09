@@ -1,24 +1,8 @@
-<script setup lang="ts">
-const { idle, lastActive } = useIdle(5000); // 1 min
-const now = useTimestamp();
-const idledFor = computed(() => Math.floor((now.value - lastActive.value) / 1000));
-const online = useOnline();
-const { charging, chargingTime, dischargingTime, level } = useBattery();
-const { x, y, sourceType } = useMouse();
-const {
-  isOnline,
-  offlineAt,
-  downlink,
-  downlinkMax,
-  effectiveType,
-  saveData,
-  type,
-} = useNetwork();
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div h-full w-full>
-    <div class="sidebar" shadow-md>
+    <div class="sidebar" bg-white-500 shadow-md w-50 m0 p0 h-full>
       <NuxtLink to="/" block text-xl text-center p-5>TODO: LOGO</NuxtLink>
       <hr op20 mx-3 />
       <NuxtLink to="/channel/home/123" block flex text-gray-700 p-4>
@@ -172,13 +156,11 @@ const {
     </div>
 
     <div grid grid-cols-12 grid-rows-12 h-full ml-50>
-      <div bg-white-500 col-span-12 row-span-1 flex justify-end align-middle shadow-lg>
-        <div mr-4>сеть: {{ online ? "онлайн" : "оффлайн" }}</div>
-        <div mr-4>скорость сети: {{ downlink }}</div>
-        <div mr-4>статус: {{ idle ? "неактивен" : "активен" }}</div>
-        <div mr-4>заряд: {{ level * 100 }}%</div>
-        <div mr-4>курсор: x-{{ x }} y-{{ y }}</div>
+      <div bg-white-500 col-span-12 row-span-1 flex justify-start h-full shadow-lg py-6 px-3>
+        <div i-carbon-text-line-spacing text-xl mr-6></div>
+        <div i-carbon-restart text-lg ></div>
       </div>
+
       <div col-span-12 row-span-11 m-2>
         <slot/>
       </div>
@@ -190,7 +172,6 @@ const {
 .sidebar {
   margin: 0;
   padding: 0;
-  width: 200px;
   background-color: white;
   position: fixed;
   height: 100%;

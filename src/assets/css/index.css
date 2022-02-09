@@ -17,3 +17,12 @@ div#__nuxt {
     background: white;
   }
 }
+
+*::-webkit-scrollbar {
+  width: 4px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #0d9488;
+  border-radius: 20px;
+}
