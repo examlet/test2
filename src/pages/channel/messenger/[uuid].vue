@@ -32,10 +32,10 @@
     </div>
 
     <div col-span-3 row-span-1 m2>
-      <button btn rounded-lg w-full p0 h-8>Обновить список диалогов</button>
+      <button btn rounded-lg w-full p0 h-10>Обновить список диалогов</button>
     </div>
 
-    <div col-span-3 row-span-7 mx-2 mb-2 h-full style="overflow-y: scroll;">
+    <div col-span-3 row-span-7 rounded mx-2 mb-2 h-full style="overflow-y: scroll;">
       <div bg-white-500 rounded px-4 pt-1 text-sm text-left h-12 my-2 mr-4>Имя Фамилия...</div>
       <div bg-white-500 rounded px-4 pt-1 text-sm text-left h-12 my-2 mr-4>Имя Фамилия...</div>
       <div bg-white-500 rounded px-4 pt-1 text-sm text-left h-12 my-2 mr-4>Имя Фамилия...</div>
