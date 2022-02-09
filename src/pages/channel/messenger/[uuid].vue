@@ -36,18 +36,86 @@
     </div>
 
     <div col-span-3 row-span-7 rounded mx-2 mb-2 h-full style="overflow-y: scroll;">
-      <div bg-white-500 rounded px-4 pt-1 text-sm text-left h-12 my-2 mr-4>Имя Фамилия...</div>
-      <div bg-white-500 rounded px-4 pt-1 text-sm text-left h-12 my-2 mr-4>Имя Фамилия...</div>
-      <div bg-white-500 rounded px-4 pt-1 text-sm text-left h-12 my-2 mr-4>Имя Фамилия...</div>
-      <div bg-white-500 rounded px-4 pt-1 text-sm text-left h-12 my-2 mr-4>Имя Фамилия...</div>
-      <div bg-white-500 rounded px-4 pt-1 text-sm text-left h-12 my-2 mr-4>Имя Фамилия...</div>
-      <div bg-white-500 rounded px-4 pt-1 text-sm text-left h-12 my-2 mr-4>Имя Фамилия...</div>
-      <div bg-white-500 rounded px-4 pt-1 text-sm text-left h-12 my-2 mr-4>Имя Фамилия...</div>
-      <div bg-white-500 rounded px-4 pt-1 text-sm text-left h-12 my-2 mr-4>Имя Фамилия...</div>
-      <div bg-white-500 rounded px-4 pt-1 text-sm text-left h-12 my-2 mr-4>Имя Фамилия...</div>
-      <div bg-white-500 rounded px-4 pt-1 text-sm text-left h-12 my-2 mr-4>Имя Фамилия...</div>
-      <div bg-white-500 rounded px-4 pt-1 text-sm text-left h-12 my-2 mr-4>Имя Фамилия...</div>
-      <div bg-white-500 rounded px-4 pt-1 text-sm text-left h-12 my-2 mr-4>Имя Фамилия...</div>
+      <div bg-white-500 rounded px-4 pt-1 text-xs text-left h-14 my-2 mr-4>
+        <div grid grid-cols-12 grid-rows-3 h-full>
+          <div col-span-8 row-span-1>Имя Фамилия</div>
+          <div col-span-3 row-span-1>17:46</div>
+          <div col-span-1 row-span-1>(2)</div>
+          <div col-span-5 row-span-1 text-teal-700 text-xs>Счет выставлен</div>
+          <div col-span-7 row-span-1 text-xs>#11 класс #приоритет</div>
+          <div col-span-12 row-span-1 text-xs>Я написал какой-то текст...</div>
+        </div>
+      </div>
+      <div bg-white-500 rounded px-4 pt-1 text-xs text-left h-14 my-2 mr-4>
+        <div grid grid-cols-12 grid-rows-3 h-full>
+          <div col-span-8 row-span-1>Имя Фамилия</div>
+          <div col-span-3 row-span-1>17:46</div>
+          <div col-span-1 row-span-1>(2)</div>
+          <div col-span-5 row-span-1 text-teal-700 text-xs>Счет выставлен</div>
+          <div col-span-7 row-span-1 text-xs>#11 класс #приоритет</div>
+          <div col-span-12 row-span-1 text-xs>Я написал какой-то текст...</div>
+        </div>
+      </div>
+      <div bg-white-500 rounded px-4 pt-1 text-xs text-left h-14 my-2 mr-4>
+        <div grid grid-cols-12 grid-rows-3 h-full>
+          <div col-span-8 row-span-1>Имя Фамилия</div>
+          <div col-span-3 row-span-1>17:46</div>
+          <div col-span-1 row-span-1>(2)</div>
+          <div col-span-5 row-span-1 text-teal-700 text-xs>Счет выставлен</div>
+          <div col-span-7 row-span-1 text-xs>#11 класс #приоритет</div>
+          <div col-span-12 row-span-1 text-xs>Я написал какой-то текст...</div>
+        </div>
+      </div>
+      <div bg-white-500 rounded px-4 pt-1 text-xs text-left h-14 my-2 mr-4>
+        <div grid grid-cols-12 grid-rows-3 h-full>
+          <div col-span-8 row-span-1>Имя Фамилия</div>
+          <div col-span-3 row-span-1>17:46</div>
+          <div col-span-1 row-span-1>(2)</div>
+          <div col-span-5 row-span-1 text-teal-700 text-xs>Счет выставлен</div>
+          <div col-span-7 row-span-1 text-xs>#11 класс #приоритет</div>
+          <div col-span-12 row-span-1 text-xs>Я написал какой-то текст...</div>
+        </div>
+      </div>
+      <div bg-white-500 rounded px-4 pt-1 text-xs text-left h-14 my-2 mr-4>
+        <div grid grid-cols-12 grid-rows-3 h-full>
+          <div col-span-8 row-span-1>Имя Фамилия</div>
+          <div col-span-3 row-span-1>17:46</div>
+          <div col-span-1 row-span-1>(2)</div>
+          <div col-span-5 row-span-1 text-teal-700 text-xs>Счет выставлен</div>
+          <div col-span-7 row-span-1 text-xs>#11 класс #приоритет</div>
+          <div col-span-12 row-span-1 text-xs>Я написал какой-то текст...</div>
+        </div>
+      </div>
+      <div bg-white-500 rounded px-4 pt-1 text-xs text-left h-14 my-2 mr-4>
+        <div grid grid-cols-12 grid-rows-3 h-full>
+          <div col-span-8 row-span-1>Имя Фамилия</div>
+          <div col-span-3 row-span-1>17:46</div>
+          <div col-span-1 row-span-1>(2)</div>
+          <div col-span-5 row-span-1 text-teal-700 text-xs>Счет выставлен</div>
+          <div col-span-7 row-span-1 text-xs>#11 класс #приоритет</div>
+          <div col-span-12 row-span-1 text-xs>Я написал какой-то текст...</div>
+        </div>
+      </div>
+      <div bg-white-500 rounded px-4 pt-1 text-xs text-left h-14 my-2 mr-4>
+        <div grid grid-cols-12 grid-rows-3 h-full>
+          <div col-span-8 row-span-1>Имя Фамилия</div>
+          <div col-span-3 row-span-1>17:46</div>
+          <div col-span-1 row-span-1>(2)</div>
+          <div col-span-5 row-span-1 text-teal-700 text-xs>Счет выставлен</div>
+          <div col-span-7 row-span-1 text-xs>#11 класс #приоритет</div>
+          <div col-span-12 row-span-1 text-xs>Я написал какой-то текст...</div>
+        </div>
+      </div>
+      <div bg-white-500 rounded px-4 pt-1 text-xs text-left h-14 my-2 mr-4>
+        <div grid grid-cols-12 grid-rows-3 h-full>
+          <div col-span-8 row-span-1>Имя Фамилия</div>
+          <div col-span-3 row-span-1>17:46</div>
+          <div col-span-1 row-span-1>(2)</div>
+          <div col-span-5 row-span-1 text-teal-700 text-xs>Счет выставлен</div>
+          <div col-span-7 row-span-1 text-xs>#11 класс #приоритет</div>
+          <div col-span-12 row-span-1 text-xs>Я написал какой-то текст...</div>
+        </div>
+      </div>
     </div>
 
     <div bg-white-500 col-span-3 row-span-5 rounded text-center align-middle m2>
