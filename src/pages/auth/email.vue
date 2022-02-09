@@ -67,7 +67,9 @@ const go = async () => {
 
     <div text-left op50 mt-4 mb-3>Введите код отправленный на почту</div>
 
-    <CodeInput v-model="code" theme="line" w-full></CodeInput>
+    <div border rounded border-solid border-gray-500 border-opacity-40 h-10 w-full px-1 py-1>
+      <CodeInput v-model="code" theme="line" h-8></CodeInput>
+    </div>
 
     <button
       :disabled="!(payload.username && payload.password)"

@@ -85,9 +85,9 @@ export default {
   .field-wrap {
     list-style: none;
     display: block;
-    height: 40px;
-    width: 72px;
-    line-height: 40px;
+    height: 36px;
+    width: 70px;
+    line-height: 36px;
     font-size: 16px;
     .char-field {
       font-style: normal;
@@ -98,7 +98,7 @@ export default {
 .block-container {
   justify-content: center;
   .field-wrap {
-    background-color: #fff;
+    background-color: transparent;
     margin: 2px;
     color: #000;
   }
@@ -106,7 +106,7 @@ export default {
 
 .line-container {
   position: relative;
-  background-color: #fff;
+  background-color: transparent ;
   &:after {
     box-sizing: border-box;
     content: "";
@@ -114,7 +114,6 @@ export default {
     height: 200%;
     transform: scale(0.5);
     position: absolute;
-    border: 1px solid #d9d9d9;
     top: 0;
     left: 0;
     transform-origin: 0 0;
